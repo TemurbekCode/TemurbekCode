@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Temur | Front-End Developer</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 25px;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+
+      background: #0d1117;
+      color: #e6edf3;
+
+      overflow-x: hidden;
+    }
+
+
+    /* Moving background glow */
+
+    body::before {
+      content: "";
+      position: fixed;
+
+      width: 280px;
+      height: 280px;
+
+      border-radius: 50%;
+
+      background: rgba(88, 166, 255, 0.08);
+
+      filter: blur(70px);
+
+      top: 10%;
+      left: -100px;
+
+      z-index: -1;
+
+      animation: moveGlow 8s ease-in-out infinite alternate;
+    }
+
+    @keyframes moveGlow {
+      0% {
+        transform: translate(0, 0);
+      }
+
+      50% {
+        transform: translate(450px, 180px);
+      }
+
+      100% {
+        transform: translate(750px, -50px);
+      }
+    }
+
+
+    /* Title */
+
+    h1 {
+      text-align: center;
+      margin-bottom: 5px;
+
+      position: relative;
+    }
+
+    /* Small moving light */
+
+    h1::after {
+      content: "";
+
+      position: absolute;
+
+      width: 7px;
+      height: 7px;
+
+      border-radius: 50%;
+
+      background: #58a6ff;
+
+      box-shadow:
+        0 0 10px #58a6ff,
+        0 0 20px #58a6ff;
+
+      animation: orbit 4s linear infinite;
+    }
+
+    @keyframes orbit {
+      0% {
+        transform: translate(120px, -25px);
+      }
+
+      25% {
+        transform: translate(145px, 5px);
+      }
+
+      50% {
+        transform: translate(120px, 30px);
+      }
+
+      75% {
+        transform: translate(95px, 5px);
+      }
+
+      100% {
+        transform: translate(120px, -25px);
+      }
+    }
+
+
+    /* Intro */
+
+    .intro {
+      text-align: center;
+
+      color: #8b949e;
+
+      margin-bottom: 40px;
+    }
+
+    .intro strong {
+      color: #58a6ff;
+
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: 0.6;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+
+
+    /* Sections */
+
+    h2 {
+      margin-top: 35px;
+
+      border-bottom: 1px solid #30363d;
+
+      padding-bottom: 8px;
+
+      position: relative;
+    }
+
+    /* Moving line */
+
+    h2::after {
+      content: "";
+
+      position: absolute;
+
+      bottom: -1px;
+      left: 0;
+
+      width: 70px;
+      height: 1px;
+
+      background: #58a6ff;
+
+      animation: lineMove 3s ease-in-out infinite;
+    }
+
+    @keyframes lineMove {
+      0% {
+        left: 0;
+        width: 30px;
+      }
+
+      50% {
+        left: 70%;
+        width: 80px;
+      }
+
+      100% {
+        left: 0;
+        width: 30px;
+      }
+    }
+
+
+    h3 {
+      color: #c9d1d9;
+    }
+
+
+    /* Text */
+
+    p {
+      color: #c9d1d9;
+    }
+
+    .stack {
+      color: #8b949e;
+    }
+
+
+    /* About list */
+
+    .about-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .about-list li {
+      position: relative;
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    .about-list li::before {
+      content: "•";
+      color: #58a6ff;
+      position: absolute;
+      left: 0;
+    }
+
+    .about-list strong {
+      color: #e6edf3;
+    }
+
+
+    /* Links */
+
+    a {
+      color: #58a6ff;
+
+      text-decoration: none;
+
+      position: relative;
+    }
+
+    a:hover {
+      color: #79c0ff;
+    }
+
+
+    /* Projects */
+
+    .project {
+      margin-bottom: 25px;
+
+      position: relative;
+
+      padding-left: 12px;
+    }
+
+    /* Project link shine */
+
+    .project a::after {
+      content: "";
+
+      position: absolute;
+
+      left: -10px;
+      bottom: -3px;
+
+      width: 5px;
+      height: 1px;
+
+      background: #58a6ff;
+
+      box-shadow: 0 0 8px #58a6ff;
+
+      animation: shine 2.5s linear infinite;
+    }
+
+    @keyframes shine {
+      0% {
+        left: -10px;
+        opacity: 0;
+      }
+
+      20% {
+        opacity: 1;
+      }
+
+      80% {
+        opacity: 1;
+      }
+
+      100% {
+        left: 100%;
+        opacity: 0;
+      }
+    }
+
+
+    /* Banner */
+
+    .banner {
+      margin-top: 45px;
+      text-align: center;
+    }
+
+    .banner img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #30363d;
+    }
+
+
+    /* Mobile */
+
+    @media (max-width: 600px) {
+
+      body {
+        padding: 35px 20px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .intro {
+        font-size: 14px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Hey, I'm Temur Alisherov</h1>
+
+  <p class="intro">
+    <strong>Front-End Developer</strong> from Uzbekistan.
+    <br>
+    I build modern web applications, fintech products, and digital tools.
+  </p>
+
+
+
+  <h2>🚀 About Me</h2>
+
+  <ul class="about-list">
+    <li>🚀 <strong>Building:</strong> RavonPay, a fintech payment platform for Central Asia — I handle product and
+      the front end.</li>
+    <li>🛠️ <strong>Learning:</strong> TypeScript and Flutter, on top of daily React and Tailwind work.</li>
+    <li>🎮 <strong>Side interest:</strong> game development, mobile app building and small interactive web
+      experiments.</li>
+    <li>🌍 <strong>Focus:</strong> fintech and web tools that solve real, regional problems — not just demos.</li>
+  </ul>
+
+
+  <h2>🛠 Tech Stack</h2>
+
+  <h3>Frontend</h3>
+
+  <p class="stack">
+    HTML • CSS • JavaScript • Tailwind CSS • React
+  </p>
+
+  <h3>Currently Learning</h3>
+
+  <p class="stack">
+    TypeScript • Flutter • Algorithms • Data Structures
+  </p>
+
+  <h3>Tools</h3>
+
+  <p class="stack">
+    Git • GitHub • VS Code
+  </p>
+
+
+  <h2>📌 Featured Projects</h2>
+
+
+  <div class="project">
+
+    <h3>
+      💳🌊
+      <a href="https://ravonpay.netlify.app/" target="_blank" rel="noopener noreferrer">
+        Ravon Pay
+      </a>
+    </h3>
+
+    <p>
+      A fintech payment platform I'm building with a
+      co-founder — a real payment app, (demo for now).
+    </p>
+
+  </div>
+
+
+  <div class="project">
+
+    <h3>
+      🗺️🧱
+      <a href="https://chegaramap.netlify.app/" target="_blank" rel="noopener noreferrer">
+        Chegara Map
+      </a>
+    </h3>
+
+    <p>
+      A map tool for measuring a land plot's area and
+      perimeter — built it before buying land myself.
+    </p>
+
+  </div>
+  <div class="project">
+
+    <h3>
+      💸❄️
+      <a href="https://muzlapay.netlify.app/" target="_blank" rel="noopener noreferrer">
+        Muzla Pay
+      </a>
+    </h3>
+
+    <p>
+      A secure escrow payment system for OLX and Telegram stores — that protects both buyers and sellers by
+      holding
+      payment until the product is delivered. </p>
+
+  </div>
+
+
+  <h2>🌌 Live Banner</h2>
+
+  <p class="intro">
+    A little animated scene I've been building for fun —
+    planets orbiting, because why not.
+  </p>
+
+  <div class="banner">
+    <img src="./cosmic-banner.svg" alt="Animated cosmic orbit banner" />
+  </div>
+
+</body>
+
+</html>
