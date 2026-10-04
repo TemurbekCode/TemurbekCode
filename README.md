@@ -1,7 +1,7 @@
-<h1 align="center">👋 Hey, I'm Temur Alisherov</h1>
+<h1 align="center"> Hey, I'm Temur Alisherov</h1>
 
 <p align="center">
-  <strong>Frontend Developer</strong> | Learning Mobile Development | Based in Uzbekistan
+  <strong>Frontend Developer</strong> | Based in Uzbekistan
   <br>
   <br>
   Building modern web applications, payment platforms, and digital tools that solve real problems.
@@ -75,8 +75,8 @@ An escrow payment platform that protects both buyers and sellers by holding paym
 ## 📊 Statistics
 
 ```
-Total Projects:        18+
-Public Repositories:   15+
+Total Projects:        10+
+Public Repositories:   10+
 Languages:            JavaScript, HTML, CSS
 Most Used:            React, SCSS
 Current Focus:         Frontend Development & Fintech Apps
