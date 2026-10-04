@@ -85,59 +85,32 @@ Learning:             Mobile Development (Flutter)
 
 ---
 
-## 📚 What You'll Find Here
-
-- **Real Projects** — Production-ready applications, not just tutorials
-- **Clean Code** — Well-organized repositories with proper documentation
-- **Professional Setup** — Every repo has LICENSE, .gitignore, and detailed README
-- **Problem Solving** — Code that solves real business problems
-- **Learning Journey** — Experimental projects and continuous improvement
-
----
-
 ## 🎯 Goals & Interests
 
 - 🎨 **Frontend** — Modern UI/UX, React best practices, responsive design
 - 💳 **Fintech** — Payment systems, secure transactions, user trust
 - 📱 **Mobile** — Learning Flutter for cross-platform applications
 - 🤝 **Freelance** — Taking on client projects and building startup MVPs
-- 📖 **Teaching** — Sharing knowledge through documentation and open source
 
 ---
 
 ## 🔗 Connect With Me
 
 - 💼 GitHub: [@TemurbekCode](https://github.com/TemurbekCode)
-- 💬 Telegram: [@TemurbekCode](https://t.me/TemurbekCode)
-- 📧 Email: temuralisherov@gmail.com
+- 📧 Email: temurbekalisherov82@gmail.com
 
 ---
 
-## 🎓 Philosophy
+## 🌌 Cosmic Banner
 
-> *"Code is not just about functionality — it's about clarity, maintainability, and creating value for users."*
+A little animated project I've been working on — planets orbiting through space, because why not.
 
-I believe in:
-- ✅ Writing code that others can understand and improve
-- ✅ Documenting projects properly for professional presentation
-- ✅ Building products that solve real problems
-- ✅ Continuous learning and staying updated with industry practices
-- ✅ Clean, organized repositories
-
----
-
-## 📈 Currently
-
-- 🎨 **Building:** Modern, responsive UIs with React
-- 📚 **Learning:** TypeScript, Flutter, mobile development
-- 🎯 **Seeking:** Freelance opportunities and interesting project partnerships
-- 💡 **Open to:** Collaborations, frontend challenges, and technical discussions
+<p align="center">
+  <img src="./cosmic-banner.svg" alt="Animated cosmic orbit banner" width="100%">
+</p>
 
 ---
 
 <p align="center">
   <strong>⭐ If you find my projects helpful, feel free to star them!</strong>
-  <br>
-  <br>
-  <em>Last updated: October 2024</em>
 </p>
