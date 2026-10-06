@@ -52,14 +52,6 @@ Learning:             Mobile Development (Flutter)
 
 ---
 
-## 🎯 Goals & Interests
-
-- 🎨 **Frontend** — Modern UI/UX, React best practices, responsive design
-- 💳 **Fintech** — Payment systems, secure transactions, user trust
-- 📱 **Mobile** — Learning Flutter for cross-platform applications
-- 🤝 **Freelance** — Taking on client projects and building startup MVPs
-
----
 
 ## 🔗 Connect With Me
 
