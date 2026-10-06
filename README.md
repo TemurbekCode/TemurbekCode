@@ -39,39 +39,6 @@ Currently working on:
 
 ---
 
-## 🌟 Featured Projects
-
-### 💳 [RavonPay](https://ravonpay.netlify.app/)
-**Payment platform for Central Asian freelancers and dropshippers**
-
-A fintech application built with React. Provides secure payment processing, user authentication, and transaction management. Working with backend team.
-
-**Tech:** React, SCSS, Stripe API  
-**Status:** 🔴 In Development
-
----
-
-### 🗺️ [ChegaraMap](https://chegaramap.netlify.app/)
-**Interactive land measurement and geographic analysis tool**
-
-A map-based platform for measuring land area, perimeter, and geographic boundaries. Built because I needed to measure land before buying it myself.
-
-**Tech:** React, Leaflet.js, SCSS  
-**Status:** ✅ Live Demo Available
-
----
-
-### 💸 [MuzlaPay](https://muzlapay.netlify.app/)
-**Secure escrow payment system for OLX and Telegram stores**
-
-An escrow payment platform that protects both buyers and sellers by holding payment until delivery confirmation. My first real client project.
-
-**Tech:** React, Vite, SCSS, Telegram Bot  
-**Status:** ✅ Production Ready  
-**Client:** First freelance client (2024)
-
----
-
 ## 📊 Statistics
 
 ```
