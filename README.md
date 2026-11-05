@@ -1,30 +1,12 @@
-<h1 align="center"> Hey, I'm Temur Alisherov</h1>
+<h1 align="center">I'm Temur Alisherov</h1>
 
 <p align="center">
   <strong>Frontend Developer</strong> | Based in Uzbekistan
   <br>
   <br>
-  Building modern web applications, payment platforms, and digital tools that solve real problems.
+  Building modern web applications, platforms, and digital tools that solve real problems.
 </p>
 
----
-
-## 🚀 About Me
-
-I'm a **frontend developer** with a passion for building **production-ready web applications**, especially in the **fintech space**. I focus on creating tools that solve real, regional problems rather than just building demos.
-
-Currently working on:
-- 💳 **RavonPay** — A fintech payment platform for freelancers and merchants in Central Asia
-- 🗺️ **ChegaraMap** — An interactive mapping tool for land measurement and analysis
-- 💸 **MuzlaPay** — A secure escrow payment system for online marketplaces
-
-**What drives me:**
-- Building products that people actually use
-- Writing clean, maintainable code
-- Solving real-world problems through technology
-- Continuous learning and improvement
-
----
 
 ## 💻 Tech Stack
 
@@ -44,10 +26,10 @@ Currently working on:
 ```
 Total Projects:        10+
 Public Repositories:   10+
-Languages:            JavaScript, HTML, CSS
+Languages:            JavaScript, TypeScript, HTML, CSS
 Most Used:            React, SCSS
 Current Focus:         Frontend Development & Fintech Apps
-Learning:             Mobile Development (Flutter)
+Learning:             Mobile Development (Flutter, React Native)
 ```
 
 ---
@@ -55,14 +37,13 @@ Learning:             Mobile Development (Flutter)
 
 ## 🔗 Connect With Me
 
-- 💼 GitHub: [@TemurbekCode](https://github.com/TemurbekCode)
 - 📧 Email: temurbekalisherov82@gmail.com
 
 ---
 
 ## 🌌 Cosmic Banner
 
-A little animated project I've been working on — planets orbiting through space, because why not.
+A little animated project.
 
 <p align="center">
   <img src="./cosmic-banner.svg" alt="Animated cosmic orbit banner" width="100%">
